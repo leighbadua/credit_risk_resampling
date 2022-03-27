@@ -1,5 +1,5 @@
 ## Overview of the Analysis
----
+
 
 ### Purpose of the analysis
 
@@ -38,18 +38,20 @@ Stage of the machine learning process:
 `predictions = model.predict(X_test)`
 
 4. Evaluate the model performance
-* `balanced_accuracy_score`- in binary and multiclass classification problems to deal with imbalanced datasets.
-* `confusion_matrix` - evaluates how the model performed. Shows the number of obervations that the model correctly classified by telling us the number of true positives and true negative values. 
-* `classification_report` Calculates the accuracy, precision, recall, and F1 scores for each class. 
+ * `balanced_accuracy_score`- in binary and multiclass classification problems to deal with imbalanced datasets.
+ * `confusion_matrix` - evaluates how the model performed. Shows the number of obervations that the model correctly classified by telling us the number of true positives and true negative values. 
+ * `classification_report` Calculates the accuracy, precision, recall, and F1 scores for each class. 
 
 
 ### The Logistic Regression method
-Train_test_split
+`Train_test_split` splits the data into different sets to train and to test. 
 
-The data is split into different sets to train and to test. 
+<img width="436" alt="image" src="https://user-images.githubusercontent.com/96001018/160280071-931b1f2c-fa52-4289-bd23-12be7e3588f5.png">
+
  
 Using the `LogisticRegression` classifier:
-***(import logistic regression model)***
+
+<img width="388" alt="image" src="https://user-images.githubusercontent.com/96001018/160280092-4c5ed816-b481-458b-b704-c48afa31b225.png">
 
 
 ## Results
@@ -61,11 +63,18 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
   * The precision of the model 85% (0.85).
   * Recall is 91% (0.91).
 
+<img width="470" alt="image" src="https://user-images.githubusercontent.com/96001018/160280146-efaa6bda-78db-4b40-baf0-2b8c5e3ebbe4.png">
+
+
 
 * Machine Learning Model 2 (Logistic Regression Model with Resampled Data):
   * The accuracy score 99.3% (0.993).
   * The precision of the model 84% (0.84).
   * Recall is 99% (0.99).
+
+<img width="490" alt="image" src="https://user-images.githubusercontent.com/96001018/160280160-4e17ae46-5f1b-4252-a81c-935e399a8317.png">
+
+
 
 ## Summary
 
